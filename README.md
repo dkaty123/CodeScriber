@@ -3,11 +3,6 @@
 ## Project Overview
 This project aims to help programmers write documentation for their code, using a fine-tuned T5 model to generate readable documentation from code chunks. The training is done on the command line and the documentation is generated on a web interface through Streamlit.
 
-## Features
-- Documentation generation for code chunks.
-- Interactive Web Interface made using Streamlit
-- Model fine-tuned on code-documentation pairs.
-
 ## Getting Started
 
 ### 1. Clone Repository
@@ -60,4 +55,3 @@ def multiply(a, b):
 2. Integrate the Tranformers and BART Models to summarize the documentation
 3. Handle different training dataset types (i.e .json, csv etc..)
 4. Being able to download the generated documentation
-5. Train the model on this [dataset](https://huggingface.co/datasets/bigcode/the-stack)
