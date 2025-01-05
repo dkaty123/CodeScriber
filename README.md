@@ -1,7 +1,7 @@
 # CodeScriber: Code Documentation Generator
 
 ## Project Overview
-This project aims to help programmers write documentation for their code, using a fine-tuned T5 model to generate readable documentation from code chunks. The training is done on the command line and the documentation is generated on a web interface through Streamlit.
+Python-based machine learning pipeline using Hugging Face’s Transformers library to generate documentation from code, leveraging the T5 model architecture for sequence-to-sequence learning; utilized GitHub Actions to automate training
 
 ## Getting Started
 
@@ -16,24 +16,14 @@ Run the command below to install all the dependencies needed:
 ```bash
 pip install -r dependencies.txt
 ```
-### 3. Train the Model 
-This step is necessary to teach the model how to interpret code and generate corresponding documentation based on that training. The model is being trained on this:
-```bash
-https://huggingface.co/datasets/jtatman/python-code-dataset-500k
-```
-- 1. Train the model using:
-```bash
-python src/model.py
-```
-- 2. After training, the model will be saved in the models/codetext_t5/ directory.
 
-### 4. Run the Streamlit App
+### 3. Run the Streamlit App
 Once the model is trained, run the app:
 ```bash
 streamlit run interface/website.py
 ```
 
-### 5. Access App
+### 4. Access App
 Once the app is running, open the URL provided by Streamlit 
 ```bash 
 http://localhost:8501
