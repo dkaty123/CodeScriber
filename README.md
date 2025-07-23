@@ -1,6 +1,7 @@
 # CodeScriber: Code Documentation Generator
 
-<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/e8a88ca9-2eb8-4729-819f-59e6ef647646" />
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/abc34e77-8414-45a8-97ac-2aa1c9433643" />
+
 
 
 ## Project Overview
