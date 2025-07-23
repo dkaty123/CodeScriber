@@ -1,6 +1,6 @@
 # CodeScriber: Code Documentation Generator
 
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/a1af4075-2041-4269-af6e-90b2eb4c4f05" />
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/a10fdc6c-2593-4727-adfd-a618924bd2e6" />
 
 ## Project Overview
 Python-based machine learning pipeline using Hugging Face’s Transformers library to generate documentation from code, leveraging the T5 model architecture for sequence-to-sequence learning; utilized GitHub Actions to automate training
